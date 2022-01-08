@@ -3,6 +3,14 @@
 <html>
     <title>Tracker</title>
     <body>
+      <style>
+        body{
+          text-align: center;
+        }
+        #email{
+          background-color: antiquewhite;
+        }
+      </style>
         <label for="email">Email</label>
         <input type="email" id="email" name="email"></input>
         <input type="submit" onclick="saveToFirebase(document.getElementById('email').value)" value="Submit">
